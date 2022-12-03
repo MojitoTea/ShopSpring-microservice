@@ -1,0 +1,11 @@
+[prometheus]
+web-server ansible_host=3.74.154.36 ansible_user=ubuntu
+
+[node_exporter]
+web-server ansible_host=3.74.154.36 ansible_user=ubuntu
+
+[alertmanager]
+web-server ansible_host=3.74.154.36 ansible_user=ubuntu
+
+[grafana]
+web-server ansible_host=3.74.154.36 ansible_user=ubuntu
